@@ -6,9 +6,21 @@ async function fetchGithubProfile() {
     const data = await response.json();
     console.log(data);
   }
-  catch(error){
+  catch (error) {
     console.log("Error fetching data:", error);
   }
+}
+
+async function fetchGithubFollowers() {
+  try{
+    const response = await fetch(`${URL}/followers`);
+    const followers = await response.json();
+    console.log(followers);
   }
+  catch(error){
+    console.log("Error fetching followers:", error);
+  }
+}
 
 fetchGithubProfile();
+fetchGithubFollowers();
