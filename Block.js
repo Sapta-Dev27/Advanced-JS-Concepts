@@ -1,4 +1,5 @@
 /*
+
 Hoisting in Let and Const : 
 
 Let and const are also hoisted but they behave differently compared to var . In case of let and const , TEMPORAL DEAD ZONE (TDZ)  comes
@@ -11,6 +12,7 @@ SO , in case of let and const , although they are hoisted , they are not initial
 What is Temporal Dead Zone (TDZ) ?
 
 The Temporal Dead Zone (TDZ) is a behavior in JavaScript that occurs with variables declared using let and const . The TDZ is the time period from the start of a block until the variable is declared and initialized . During this period , any attempt to access the variable will result in a ReferenceError .
+
 */
 
 /*Example of Hoisting with let , const and var AND Temporal Dead Zone (TDZ)*/
@@ -130,7 +132,9 @@ console.log("Outer n1 after block:", n1); // Outer n1 after block: 50
 
 
 /*Scope Chain :
+
 In JavaScript , scope chain refers to the hierarchical structure of scopes that determines the accessibility of variables and functions . When a variable or function is referenced , JavaScript first looks for it in the current scope . If it is not found , it moves up to the next outer scope and continues this process until it reaches the global scope . This chain of scopes is known as the scope chain .
+
 */
 
 const c1 = 20;        // Global scope
