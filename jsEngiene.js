@@ -12,7 +12,7 @@ It mainly consists of these steps :
 4. Execution
   
 Imp thing to note : JS is JUST IN TIME compilation language ( it uses both interpretor as well as compiler to execute its code).
-What is interpretor & compiler ?> -> in case of interpretor , the entire code is executed line by line wherease in case of compiler the entire code is executed and then if there are no compilator error takes place then a executable file is generated  ( eH .exe in cpp) which is then sent for execution .
+What is interpretor & compiler ?> -> in case of interpretor , the entire code is executed line by line wherease in case of compiler the entire code is executed and then if there are no compilation error takes place then a executable file is generated  ( eG :  .exe in cpp) which is then sent for execution .
 
 The diff stages : 
 1.code is given as a input 
